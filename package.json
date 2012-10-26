@@ -1,0 +1,23 @@
+{
+  "name": "Page-Crawler",
+  "preferGlobal": "true",
+  "version": "0.3.1",
+  "author": "Mark (Ibbo) Ibbotson <mark.ibbotson@stickyeyes.com>",
+  "description": "Web site scraping tool, new link parser and event model",
+  "contributors": [ 
+    {
+      "name": "James main",
+      "email": "james.main@stickyeyes.com"
+    } 
+  ],
+  "dependencies" : {
+    "request"         :"2.11.4",
+    "mysql"           :"0.9.6",
+    "nodestalker"     :"0.1.4",    
+    "cheerio"         :"0.10.1", 
+  },
+  "license": "Stickyeyes",
+  "engines": {
+    "node": ">=0.6.3"
+  }
+}
